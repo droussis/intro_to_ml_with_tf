@@ -48,6 +48,5 @@ There are also two optional parameters which can be used:
 * ```--category_names```: Allows the user to specify the path to a JSON file that maps the labels to the category names.
 
 * __Example Usage__:
-
-```$ python predict.py test_images/orange_dahlia.jpg flower_classifier.h5 --category_names label_map.json --top_k 10```
+```$ python predict.py test_images/wild_pansy.jpg flower_classifier.h5 --category_names label_map.json --top_k 5```
 
