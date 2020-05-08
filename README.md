@@ -20,7 +20,7 @@ Moreover, the Gradient Boosting classifier which proved to have the best perform
 
 ---
 
-## Project 2 - Create Image Classifier
+## Project 2 - Create Your Own Image Classifier - TensorFlow
 
 Python version: 3.7.6
 
@@ -30,7 +30,7 @@ This project is divided into two parts.
 In the first part, the student has to load the __Oxford Flowers 102__ dataset (contained in TensorFlow Datasets), do some minimal exploration, normalization and preprocessing and afterwards, load a pre-trained network (MobileNet) which is used to train a new neural network which can classify the flower images to their corresponding classes.
 
 ### Part 2 - Command Line Application
-In the second part, the student has to implement a command line application which is given an image, a saved pre-trained model and some optional parameters and returns the predicted classes.
+In the second part, the student has to implement a command line application which is given an image, a saved pre-trained model and some optional parameters and returns the predicted classes. Our model managed to score 78.73% accuracy on the test set (previously unseen data).
 
 In particular, in order to use the command line application, you have to follow these steps:
 1. Clone the repository and move to the 'image_classifier' directory
@@ -48,5 +48,6 @@ There are also two optional parameters which can be used:
 * ```--category_names```: Allows the user to specify the path to a JSON file that maps the labels to the category names.
 
 * __Example Usage__:
+
 ```$ python predict.py test_images/wild_pansy.jpg flower_classifier.h5 --category_names label_map.json --top_k 5```
 
