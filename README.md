@@ -1,6 +1,6 @@
 # Introduction to Machine Learning with TensorFlow
 
-In this repository, you will find the projects that I carried out for the "Introduction to Machine Learning with TensorFlow" Udacity Nanodegree program.
+In this repository, you will find the projects that I carried out for the __"Introduction to Machine Learning with TensorFlow"__ Udacity Nanodegree program.
 
 Each folder contains a project, its Anaconda environment and its deliverables. Note that the data that are used, as well as some necessary functions are missing and thus, the notebooks cannot be reproduced. However, feel free to to use and experiment with the application of Project 2 by following the guidelines below.
 
@@ -27,7 +27,7 @@ Python version: 3.7.6
 This project is divided into two parts. 
 
 ### Part 1 - Development Notebook
-In the first part, the student has to load the "Oxford Flowers 102" dataset (contained in TensorFlow Datasets), do some minimal exploration, normalization and preprocessing and afterwards, load a pre-trained network (MobileNet) which is used to train a new neural network which can classify the flower images to their corresponding classes.
+In the first part, the student has to load the __Oxford Flowers 102__ dataset (contained in TensorFlow Datasets), do some minimal exploration, normalization and preprocessing and afterwards, load a pre-trained network (MobileNet) which is used to train a new neural network which can classify the flower images to their corresponding classes.
 
 ### Part 2 - Command Line Application
 In the second part, the student has to implement a command line application which is given an image, a saved pre-trained model and some optional parameters and returns the predicted classes.
@@ -47,6 +47,7 @@ There are also two optional parameters which can be used:
 * ```--top_k```: Allows the user to print out the top k most likely classes that the image belongs to along with the associated probabilities.
 * ```--category_names```: Allows the user to specify the path to a JSON file that maps the labels to the category names.
 
-* __Example Usage__
+* __Example Usage__:
+
 ```$ python predict.py test_images/orange_dahlia.jpg flower_classifier.h5 --category_names label_map.json --top_k 10```
 
