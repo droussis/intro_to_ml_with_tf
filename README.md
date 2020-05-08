@@ -15,3 +15,32 @@ In this project, the student has to implement several supervised learning algori
 - Gradient Boosting 
 
 Moreover, the Gradient Boosting classifier which proved to have the best performance (in terms of F-score and accuracy) is fine-tuned using a grid search of some of its hyper-parameters. Additional information can be found in the Jupyter notebook.
+
+## Project 2 - Create Image Classifier
+
+This project is divided into two parts. 
+
+### Part 1 - Development Notebook
+In the first part, the student has to load the "Oxford Flowers 102" dataset (contained in TensorFlow Datasets), do some minimal exploration, normalization and preprocessing and afterwards, load a pre-trained network (MobileNet) which is used to train a new neural network which can classify the flower images to their corresponding classes.
+
+### Part 2 - Command Line Application
+In the second part, the student has to implement a command line application which is given an image, a saved pre-trained model and some optional parameters and returns the predicted classes.
+
+In particular, in order to use the command line application, you have to follow these steps:
+1. Clone the repository and move to the 'image_classifier' directory
+2. Create a conda environment with all the requirements using: 
+   '''
+   $ conda env create -f environment.yml
+   '''
+3. Use the '''predict.py''' to predict the label or class of a given flower image 
+   '''
+   $ python predict.py saved_model --top_k k --category_names map.json 
+   '''
+
+There are also two optional parameters which can be used:
+* '''--top_k''': Allows the user to print out the top k most likely classes that the image belongs to along with the associated probabilities.
+* '''--category_names''': Allows the user to specify the path to a JSON file that maps the labels to the category names.
+
+* __Example Usage__
+'''$ python predict.py test_images/orange_dahlia.jpg flower_classifier.h5 --category_names label_map.json --top_k 10'''
+
