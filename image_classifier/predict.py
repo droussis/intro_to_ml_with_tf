@@ -58,7 +58,7 @@ def predict(image_path, saved_model, top_k=1, category_names=None):
             class_names = json.load(f)
         for x in top_indices:
             print('\nClass: {} with probability {:.3%}'
-                  .format(class_names.get(str(x)), prediction[x]))
+                  .format(class_names.get(str(x+1)), prediction[x]))
     else:
         for x in top_indices:
             print('\nLabel: {} with probability {:.3%}'
