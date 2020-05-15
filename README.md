@@ -2,7 +2,7 @@
 
 In this repository, you will find the projects that I carried out for the __"Introduction to Machine Learning with TensorFlow"__ Udacity Nanodegree program.
 
-Each folder contains a project, its Anaconda environment and its deliverables. Note that the data that are used, as well as some necessary functions are missing and thus, the notebooks cannot be reproduced. However, feel free to to use and experiment with the application of Project 2 by following the guidelines below.
+Each folder contains a project and its deliverables. Note that some of the data that are used, as well as some necessary functions are missing and thus, few thing can be reproduced. However, feel free to use and experiment with the application of Project 2 by following the guidelines below.
 
 ---
 
@@ -54,7 +54,7 @@ There are also two optional parameters which can be used:
 ---
 ## Project 3 - Creating Customer Segments with Arvato
 
-_NOTE:_ The datasets used in this project are proprietary and thus, it cannot be reproduced.
+_NOTE:_ The datasets which were used are proprietary and thus, the project cannot be reproduced.
 
 In this project, the student has to identify segments of the general population that form the core customer base for a mail-order sales company in Germany. The notebook is divided into 3 steps:
 
