@@ -51,3 +51,16 @@ There are also two optional parameters which can be used:
 
 ```$ python predict.py test_images/wild_pansy.jpg flower_classifier.h5 --category_names label_map.json --top_k 5```
 
+---
+## Project 3 - Creating Customer Segments with Arvato
+
+_NOTE:_ The datasets used in this project are proprietary and thus, it cannot be reproduced.
+
+In this project, the student has to identify segments of the general population that form the core customer base for a mail-order sales company in Germany. The notebook is divided into 3 steps:
+
+1. **Preprocessing:** Assessment of the missing data and feature engineering.
+2. **Feature Transformation:** Feature scaling, dimensionality reduction using PCA and interpretation of the first three principal components.
+3. **Clustering:** K-Means clustering on the general population (k determined with the elbow method), prediction of the customers' clusters using the fitted model and comparison between the clusters of the two groups (general population and customers) in order to determine the characteristics of the group which comprises the target audience of the company, as well as those of the group which is outside of the target demographics.
+
+The findings and the decisions that were taken in each step are reported in the **Discussion** sections of the notebook.
+
